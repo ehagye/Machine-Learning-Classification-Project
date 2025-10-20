@@ -1,1 +1,1 @@
-# Machine Learning CLassification Project
+# Machine Learning Classification Project
