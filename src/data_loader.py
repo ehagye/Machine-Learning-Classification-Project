@@ -7,7 +7,7 @@ missing_entry = 1e99
 
 def load_dataset(train_path, label_path=None, test_path=None):
     """
-    Loads training/test datasets and changes the missing values (1e99) to be Nan instead.
+    Loads training/test datasets and changes the missing values (1e99) to be Nan.
 
     Parameters
     -----------
@@ -21,7 +21,7 @@ def load_dataset(train_path, label_path=None, test_path=None):
     Returns
     --------
     dict type
-        A dictionary with the keys X_train, Y_train, and X_test. 
+        A dictionary with the keys X_train, Y_train, and X_test.
         (only when they are given as parameters)
     """
 
