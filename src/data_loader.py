@@ -21,7 +21,8 @@ def load_dataset(train_path, label_path=None, test_path=None):
     Returns
     --------
     dict type
-        A dictionary with the keys X_train, Y_train, and X_test. (only when they are given as parameters)
+        A dictionary with the keys X_train, Y_train, and X_test. 
+        (only when they are given as parameters)
     """
 
     # This takes the given file paths and turns them into Path objects
