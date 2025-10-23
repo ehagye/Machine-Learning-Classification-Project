@@ -6,7 +6,6 @@ venv/
 .env/
 .ipynb_checkpoints/
 data/*
-!data/README.md
 models/
 outputs/
 .DS_Store
